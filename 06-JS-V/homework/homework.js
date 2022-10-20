@@ -56,7 +56,7 @@ String.prototype.reverse = function(){
     //  }
 
   class Persona {
-    constructor(/*Escribir los argumentos que recibe el constructor*/) {
+    constructor(nombre, apellido, edad, domicilio) {
       // Crea el constructor:
       this.nombre = nombre;
       this.apellido = apellido; 
